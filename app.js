@@ -4,7 +4,13 @@ Write a function called sum() that takes in two numbers as arguments and then re
 "The sum of 4 and 7 is 11."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
-// Write your code here
+function sum(num1, num2) {
+  var numSum = num1 + num2;
+  var answer1 = [numSum, 'The sum of ' + num1 + ' and ' + num2 + ' is ' + numSum + '.'];
+  return answer1;
+}
+
+
 
 // Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
@@ -30,6 +36,7 @@ Write a function called sumAndMultiply() that takes in three numbers as argument
 Third element: "4 and 7 and 5 sum to 16."
 Fourth element: "The product of 4 and 7 and 5 is 140."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
+
 
 // Write your code here
 
